@@ -1,0 +1,47 @@
+
+body{
+    background-position: 100%;
+    display: grid;
+    justify-content: center;
+}
+button{
+    background-color: azure
+    
+
+}
+input{
+    background-color:greenyellow;
+    text-align: right;
+    border-radius: 5px;
+    width: 136px;
+    
+}
+
+#cal1{
+    text-align: center;
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    display: block;
+    border: 2px solid brown;
+    width: 150px;
+    height: 140px;
+    padding-top: 5px;
+   
+
+    
+
+    
+}
+
+.cb{
+    height: 18px;
+    width: 30px;
+    margin: 2px;
+    border: 1px solid pink;
+    border-radius: 4px;
+    background-color: bisque
+    
+    
+
+}

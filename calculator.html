@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="calculator.css">
+<body>
+   
+    <div id="cal1">
+        <input type="text" placeholder="0" id="result"><br>
+        <button class="cb" onclick="clearscreen()
+
+        ">AC</button>
+        <button class="cb" onclick="clearscreen()
+
+        ">C</button>
+        <button class="cb" onclick="val=val+'%'
+                document.querySelector('#result').value= val
+        ">%</button>
+        <button class="cb" onclick="val=val+'/'
+                document.querySelector('#result').value= val
+        ">/</button>
+        <br>
+        <button class="cb" onclick="val=val+7
+                document.querySelector('#result').value= val
+        ">7</button>
+        <button class="cb" onclick="val=val+8
+                document.querySelector('#result').value= val
+        ">8</button>
+        <button class="cb" onclick="val=val+9
+                document.querySelector('#result').value= val
+        ">9</button>
+        <button class="cb" onclick="val=val+'*'
+                document.querySelector('#result').value= val
+        ">x</button>
+        <br>
+        <button class="cb" onclick="val=val+4
+                document.querySelector('#result').value= val
+        ">4</button>
+        <button class="cb" onclick="val=val+5
+                document.querySelector('#result').value= val
+        ">5</button>
+        <button class="cb" onclick="val=val+6
+                document.querySelector('#result').value= val
+        ">6</button>
+        <button class="cb" onclick="val=val+'-'
+                document.querySelector('#result').value= val">-</button>
+        <br>
+        <button class="cb" onclick="val=val+1
+                document.querySelector('#result').value= val
+        ">1</button>
+        <button class="cb" onclick="val=val+2
+                document.querySelector('#result').value= val
+        ">2</button>
+        <button class="cb" onclick="val=val+3
+                document.querySelector('#result').value= val
+        ">3</button>
+        <button class="cb" onclick="val=val+'+'
+                document.querySelector('#result').value= val
+        ">+</button>
+        <br>
+        <button class="cb" onclick="val=val+0+0
+                document.querySelector('#result').value= val
+        ">00</button>
+        <button class="cb" onclick="val=val+0
+                document.querySelector('#result').value= val
+        ">0</button>
+        
+        <button class="cb" onclick="val=val+ '.'
+                document.querySelector('#result').value= val
+        ">.</button>
+
+        <button class="cb" onclick="val=eval(val);
+                document.querySelector('#result').value= val
+        ">=</button>
+    </div>
+    <script>
+        let val = ""
+        number(document.querySelector("#result").value)= val
+        function clearscreen(){
+                document.getElementById("result").value=""
+
+        }
+    </script>
+</body>
+</html>
